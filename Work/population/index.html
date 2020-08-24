@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="https://a.amap.com/Loca/static/manual/example/style/demo.css" rel="stylesheet">
+  <script src="http://api.map.baidu.com/getscript?v=2.0&ak=swFFfRmPdHLjr2XoKUSrLUKzG8dQKj2T"></script>
+  <script src="https://webapi.amap.com/maps?key=c8c078c1426b4a512c4e2cc79cde3851&v=1.4.15"></script>
+  <script src="https://webapi.amap.com/loca?key=2caa1d414ac6bec73d19105b7f89a95c&v=1.3.0"></script>
+  <script src="https://webapi.amap.com/ui/1.0/main.js"></script>
+
+  <title>人口大数据分析平台</title>
+  <style>
+    .anchorBL {
+      display: none !important;
+    }
+
+    .anchorTR {
+      display: none !important;
+    }
+
+    .BMap_cpyCtrl {
+      display: none !important;
+    }
+  </style>
+  <script>
+    function setRem() {
+      let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+      let htmlDom = document.getElementsByTagName('html')[0];
+      htmlDom.style.fontSize = htmlWidth / 19.2 + 'px';
+    }
+    setRem();
+    window.onresize = function () {
+      setRem()
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

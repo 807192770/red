@@ -1,0 +1,76 @@
+/* 
+  重置 elementUI 样式
+*/
+/* 
+  导航 重置
+*/
+.el-menu-item-group__title {
+  display: none;
+}
+
+.navs .el-menu-vertical-demo {
+  border: none !important;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+
+.navs .el-menu-item:focus,
+.navs .el-menu-item:hover,
+.navs .el-menu-item.is-active {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.navs .nav-menu-item.el-submenu:focus .el-submenu__title,
+.navs .nav-menu-item.el-submenu:hover .el-submenu__title,
+.navs .el-submenu__title:focus,
+.navs .el-submenu__title:hover {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.navs .el-menu-vertical-demo:not(.el-menu--collapse) {
+  min-height: 400px;
+  transition: width .1s;
+  -webkit-transition: width .1s;
+  -moz-transition: width .1s;
+  -ms-transition: width .1s;
+  -o-transition: width .1s;
+}
+
+.navs .el-menu-item,
+.navs .el-submenu__title {
+  /* font-size: 16px; */
+}
+
+/* 
+  表单 重置
+*/
+.el-form-item {
+  margin-bottom: 15px !important;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding-bottom: 0 !important;
+  line-height: 30px;
+}
+
+/* 
+  时间选择器 重置 （至 错位）
+*/
+.el-date-editor .el-range-separator {
+  width: auto;
+}
+
+/* 
+  分页居中
+*/
+.pagination {
+  text-align: center;
+  margin: 30px;
+}
+
+.alert-container {
+  padding: 5px 0 !important;
+}

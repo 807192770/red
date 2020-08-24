@@ -1,0 +1,99 @@
+/* 
+  导航 重置
+*/
+.el-menu-item-group__title {
+  display: none;
+}
+
+.navs .el-menu-vertical-demo {
+  border: none !important;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+
+.navs .el-menu-item:focus,
+.navs .el-menu-item:hover {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.navs .el-submenu__title:focus,
+.navs .el-submenu__title:hover {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.navs .nav-menu-item.el-submenu:focus .el-submenu__title,
+.navs .nav-menu-item.el-submenu:hover .el-submenu__title {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.navs .el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 180px;
+  min-height: 400px;
+  transition: width .1s;
+  -webkit-transition: width .1s;
+  -moz-transition: width .1s;
+  -ms-transition: width .1s;
+  -o-transition: width .1s;
+}
+
+.navs .el-menu--collapse .nav-menu-item.el-submenu.is-active .el-submenu__title>i:first-child {
+  color: #409EFF;
+}
+
+.el-menu--vertical {
+  background-color: rgb(42, 61, 91);
+}
+
+.el-menu--vertical .el-menu-item:focus,
+.el-menu--vertical .el-menu-item:hover {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.el-dropdown .el-dropdown-selfdefine {
+  display: flex;
+  align-items: center;
+}
+
+.el-dropdown-menu li {
+  font-size: 12px;
+}
+
+/* 
+  重置开关
+*/
+.demo .el-switch__label {
+  position: absolute;
+  display: none;
+  color: #fff;
+}
+
+.el-switch__label * {
+  margin-left: 8px;
+}
+
+.demo .el-switch__label--right {
+  z-index: 1;
+  right: -3px;
+}
+
+.demo .el-switch__label--left {
+  z-index: 1;
+  left: 19px;
+}
+
+.demo .el-switch__label.is-active {
+  display: block;
+}
+
+.demo.el-switch .el-switch__core,
+.el-switch .el-switch__label {
+  width: 50px !important;
+}
+
+.el-checkbox.is-bordered+.el-checkbox.is-bordered{
+  margin-left:0px ;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+{
+	"contactPeople": [{
+		"cityCombination": "石家庄+保定市",
+		"relationCnt": "292832",
+		"rankId": "1"
+	}, {
+		"cityCombination": "保定市+雄安",
+		"relationCnt": "240755",
+		"rankId": "2"
+	}, {
+		"cityCombination": "唐山市+秦皇岛",
+		"relationCnt": "227985",
+		"rankId": "3"
+	}, {
+		"cityCombination": "邯郸市+邢台市",
+		"relationCnt": "206425",
+		"rankId": "4"
+	}, {
+		"cityCombination": "石家庄+邢台市",
+		"relationCnt": "190050",
+		"rankId": "5"
+	}, {
+		"cityCombination": "廊坊市+沧州市",
+		"relationCnt": "181157",
+		"rankId": "6"
+	}, {
+		"cityCombination": "保定市+廊坊市",
+		"relationCnt": "154796",
+		"rankId": "7"
+	}, {
+		"cityCombination": "沧州市+衡水市",
+		"relationCnt": "143427",
+		"rankId": "8"
+	}, {
+		"cityCombination": "唐山市+廊坊市",
+		"relationCnt": "140541",
+		"rankId": "9"
+	}, {
+		"cityCombination": "衡水市+邢台市",
+		"relationCnt": "105823",
+		"rankId": "10"
+	}]
+}

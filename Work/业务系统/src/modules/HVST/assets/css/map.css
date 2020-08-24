@@ -1,0 +1,92 @@
+.BMap_bubble_title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.BMap_bubble_content .content {
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+.BMap_bubble_content .handle {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+
+.BMap_bubble_content .handle .btn {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid #DCDFE6;
+  border-color: #DCDFE6;
+  -webkit-appearance: none;
+  text-align: center;
+  -webkit-transition: .1s;
+  transition: .1s;
+  font-weight: 500;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 9px 15px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.BMap_bubble_content .handle .btn.blue {
+  background-color: #5D77E4;
+  border-color: #5D77E4;
+  color: #fff;
+}
+
+.BMap_bubble_content .handle .btn.txt {
+  background-color: #fff;
+  color: #606266;
+  border: 1px solid #DCDFE6;
+}
+
+
+
+.BMap_bubble_content .content .item {
+  margin: 20px;
+  display: flex;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+
+
+/* 边角 */
+.BMap_pop div:nth-child(1) div {
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -ms-border-radius: 5px 0 0 0;
+  -o-border-radius: 5px 0 0 0;
+}
+
+.BMap_pop div:nth-child(3) {
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -ms-border-radius: 0 5px 0 0;
+  -o-border-radius: 0 5px 0 0;
+}
+
+.BMap_pop div:nth-child(5) {
+  border-radius: 0 0 0 5px;
+  -webkit-border-radius: 0 0 0 5px;
+  -moz-border-radius: 0 0 0 5px;
+  -ms-border-radius: 0 0 0 5px;
+  -o-border-radius: 0 0 0 5px;
+}
+
+.BMap_pop div:nth-child(7) {
+  border-radius: 0 0 5px 0;
+  -webkit-border-radius: 0 0 5px 0;
+  -moz-border-radius: 0 0 5px 0;
+  -ms-border-radius: 0 0 5px 0;
+  -o-border-radius: 0 0 5px 0;
+}

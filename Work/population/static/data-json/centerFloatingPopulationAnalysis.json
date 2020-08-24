@@ -1,0 +1,175 @@
+{
+  "coordinate": [
+    {
+      "province": "北京市",
+      "longitude": "116.28",
+      "latitude": "39.54"
+    },
+    {
+      "province": "河南省",
+      "longitude": "113.42",
+      "latitude": "34.48"
+    },
+    {
+      "province": "天津市",
+      "longitude": "117.11",
+      "latitude": "39.09"
+    },
+    {
+      "province": "山西省",
+      "longitude": "112.34",
+      "latitude": "37.52"
+    },
+    {
+      "province": "辽宁省",
+      "longitude": "123.24",
+      "latitude": "41.5"
+    },
+    {
+      "province": "山东省",
+      "longitude": "117",
+      "latitude": "36.38"
+    },
+    {
+      "province": "湖北省",
+      "longitude": "114.21",
+      "latitude": "30.37"
+    },
+    {
+      "province": "黑龙江省",
+      "longitude": "126.41",
+      "latitude": "45.45"
+    },
+    {
+      "province": "广东省",
+      "longitude": "113.15",
+      "latitude": "23.08"
+    },
+    {
+      "province": "吉林省",
+      "longitude": "125.19",
+      "latitude": "43.52"
+    },
+    {
+      "province": "内蒙古自治区",
+      "longitude": "111.48",
+      "latitude": "40.49"
+    },
+    {
+      "province": "上海市",
+      "longitude": "121.29",
+      "latitude": "31.14"
+    },
+    {
+      "province": "浙江省",
+      "longitude": "120.09",
+      "latitude": "30.14"
+    },
+    {
+      "province": "甘肃省",
+      "longitude": "103.49",
+      "latitude": "36.03"
+    },
+    {
+      "province": "贵州省",
+      "longitude": "106.42",
+      "latitude": "26.35"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "longitude": "106.16",
+      "latitude": "38.2"
+    },
+    {
+      "province": "西藏自治区",
+      "longitude": "91.1",
+      "latitude": "29.4"
+    },
+    {
+      "province": "河北省",
+      "longitude": "115.919423",
+      "latitude": "39.05581"
+    }
+  ],
+  "ranking": [
+    {
+      "province": "北京市",
+      "population": "791780"
+    },
+    {
+      "province": "河南省",
+      "population": "232770"
+    },
+    {
+      "province": "天津市",
+      "population": "212711"
+    },
+    {
+      "province": "山西省",
+      "population": "153620"
+    },
+    {
+      "province": "辽宁省",
+      "population": "99499"
+    },
+    {
+      "province": "山东省",
+      "population": "95144"
+    },
+    {
+      "province": "湖北省",
+      "population": "51371"
+    },
+    {
+      "province": "黑龙江省",
+      "population": "50150"
+    },
+    {
+      "province": "广东省",
+      "population": "46530"
+    },
+    {
+      "province": "吉林省",
+      "population": "46094"
+    },
+    {
+      "province": "内蒙古自治区",
+      "population": "33122"
+    },
+    {
+      "province": "上海市",
+      "population": "29818"
+    },
+    {
+      "province": "浙江省",
+      "population": "18696"
+    },
+    {
+      "province": "甘肃省",
+      "population": "9438"
+    },
+    {
+      "province": "贵州省",
+      "population": "6967"
+    },
+    {
+      "province": "宁夏回族自治区",
+      "population": "6302"
+    },
+    {
+      "province": "西藏自治区",
+      "population": "498"
+    },
+    {
+      "province": "河北省",
+      "population": "487"
+    }
+  ],
+  "place": [
+    {
+      "province": "河北省",
+      "longitude": "115.919423",
+      "latitude": "39.05581"
+    }
+  ]
+}

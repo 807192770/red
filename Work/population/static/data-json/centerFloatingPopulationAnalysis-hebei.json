@@ -1,0 +1,112 @@
+{
+  "coordinate": [
+    {
+      "province": "保定市",
+      "longitude": "115.487558",
+      "latitude": "38.874259"
+    },
+    {
+      "province": "廊坊市",
+      "longitude": "116.706962",
+      "latitude": "39.519659"
+    },
+    {
+      "province": "沧州市",
+      "longitude": "116.847017",
+      "latitude": "38.311234"
+    },
+    {
+      "province": "石家庄市",
+      "longitude": "114.508019",
+      "latitude": "38.049619"
+    },
+    {
+      "province": "邯郸市",
+      "longitude": "114.495325",
+      "latitude": "36.616607"
+    },
+    {
+      "province": "唐山市",
+      "longitude": "118.185888",
+      "latitude": "39.640364"
+    },
+    {
+      "province": "邢台市",
+      "longitude": "114.50571",
+      "latitude": "37.0768"
+    },
+    {
+      "province": "衡水市",
+      "longitude": "115.681295",
+      "latitude": "37.745134"
+    },
+    {
+      "province": "秦皇岛市",
+      "longitude": "119.601419",
+      "latitude": "39.946338"
+    },
+    {
+      "province": "张家口市",
+      "longitude": "114.890921",
+      "latitude": "40.799895"
+    },
+    {
+      "province": "承德市",
+      "longitude": "117.969495",
+      "latitude": "40.959461"
+    }
+  ],
+  "ranking": [
+    {
+      "province": "保定市",
+      "population": "1220386"
+    },
+    {
+      "province": "廊坊市",
+      "population": "331819"
+    },
+    {
+      "province": "沧州市",
+      "population": "289333"
+    },
+    {
+      "province": "石家庄市",
+      "population": "255277"
+    },
+    {
+      "province": "邯郸市",
+      "population": "167966"
+    },
+    {
+      "province": "唐山市",
+      "population": "101246"
+    },
+    {
+      "province": "邢台市",
+      "population": "94673"
+    },
+    {
+      "province": "衡水市",
+      "population": "91943"
+    },
+    {
+      "province": "秦皇岛市",
+      "population": "42624"
+    },
+    {
+      "province": "张家口市",
+      "population": "40881"
+    },
+    {
+      "province": "承德市",
+      "population": "26559"
+    }
+  ],
+  "place": [
+    {
+      "province": "河北省",
+      "longitude": "115.919423",
+      "latitude": "39.05581"
+    }
+  ]
+}

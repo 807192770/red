@@ -1,0 +1,21 @@
+{
+	"data": [{
+		"trvType": "飞机",
+		"relationCnt": "11717"
+	}, {
+		"trvType": "小汽车",
+		"relationCnt": "65925"
+	}, {
+		"trvType": "火车",
+		"relationCnt": "40006"
+	}, {
+		"trvType": "步行",
+		"relationCnt": "10069"
+	}, {
+		"trvType": "其他",
+		"relationCnt": "2150"
+	}, {
+		"trvType": "长途客车",
+		"relationCnt": "9116"
+	}]
+}

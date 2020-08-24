@@ -1,0 +1,38 @@
+﻿[{
+  "data": [{
+    "trvType": "火车",
+    "relationCnt": "347"
+  }, {
+    "trvType": "长途客车",
+    "relationCnt": "25"
+  }, {
+    "trvType": "飞机",
+    "relationCnt": "23"
+  }, {
+    "trvType": "小汽车",
+    "relationCnt": "530"
+  }, {
+    "trvType": "步行",
+    "relationCnt": "1"
+  }]
+}, {
+  "data": [{
+    "trvType": "火车",
+    "relationCnt": "10208"
+  }, {
+    "trvType": "长途客车",
+    "relationCnt": "26536"
+  }, {
+    "trvType": "小汽车",
+    "relationCnt": "51453"
+  }, {
+    "trvType": "步行",
+    "relationCnt": "27252"
+  }, {
+    "trvType": "其他",
+    "relationCnt": "224"
+  }, {
+    "trvType": "飞机",
+    "relationCnt": "3469"
+  }]
+}]

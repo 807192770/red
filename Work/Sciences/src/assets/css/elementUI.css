@@ -1,0 +1,120 @@
+/* 
+  重置elementUI 样式
+*/
+/* 
+  placeholder 重置
+*/
+input::-webkit-input-placeholder {
+  color: #333!important;
+}
+input::-moz-input-placeholder {
+  color: #333!important;
+}
+input::-ms-input-placeholder {
+  color: #333!important;
+}
+/* 
+  icon 重置
+*/
+.el-icon {
+  cursor: pointer;
+}
+
+.el-icon-20 {
+  font-size: 20px;
+}
+
+.el-icon-25 {
+  font-size: 25px;
+}
+
+.el-icon-30 {
+  font-size: 30px;
+}
+
+.headers .el-select__tags {
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+/* 
+  导航 重置
+*/
+.navs .el-menu-vertical-demo {
+  border: none !important;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+}
+
+.navs .el-menu-item:focus,
+.navs .el-menu-item:hover {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.navs .nav-menu-item.el-submenu:focus .el-submenu__title,
+.navs .nav-menu-item.el-submenu:hover .el-submenu__title {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.navs .el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 180px;
+  min-height: 400px;
+  transition: width .1s;
+  -webkit-transition: width .1s;
+  -moz-transition: width .1s;
+  -ms-transition: width .1s;
+  -o-transition: width .1s;
+}
+
+.navs .el-menu--collapse .nav-menu-item.el-submenu.is-active .el-submenu__title>i:first-child {
+  color: #409EFF;
+}
+
+.el-menu--vertical {
+  background-color: rgb(42, 61, 91);
+}
+
+.el-menu--vertical .el-menu-item:focus,
+.el-menu--vertical .el-menu-item:hover {
+  background-color: hsla(0, 0%, 100%, .1) !important;
+}
+
+.el-dropdown .el-dropdown-selfdefine {
+  display: flex;
+  align-items: center;
+}
+
+.el-dropdown-menu li {
+  font-size: 12px;
+}
+/* 
+  table 重置
+*/
+.el-table th{
+  font-weight: 600;
+  color: #000;
+  padding: 14px 0;
+  background: #F7F9FC;
+}
+.el-table td div{
+  color: #333;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background: #F7F9FC;
+}
+/* 
+  el-dialog 重置
+*/
+.el-dialog__header{
+  border-bottom:1px solid #dbdde1;
+}
+/* 
+  
+*/
+.el-input--small{
+  font-size: 12px;
+}
+

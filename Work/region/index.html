@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>区域热图</title>
+    <script src="http://api.map.baidu.com/getscript?v=2.0&ak=swFFfRmPdHLjr2XoKUSrLUKzG8dQKj2T"></script>
+    <style>
+        .anchorBL{
+            display: none !important;
+        }
+        .anchorTR{
+            display: none !important;
+        }
+        .BMap_cpyCtrl {
+            display:none !important; 
+        }
+    </style>
+    <script>
+      setRem();
+      window.addEventListener("resize", setRem);
+      function setRem() {
+        var html = document.querySelector("html");
+        var width = html.getBoundingClientRect().width;
+        html.style.fontSize = width / 1920*100 + "px";
+      }
+    </script> 
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+  
